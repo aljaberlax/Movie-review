@@ -1,0 +1,22 @@
+.banner-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-content:space-around;
+    align-items: center;
+}
+.banner-details{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.banner-image img{
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 20px;
+    height:300px;
+    width:600px;
+}
+.banner-image{
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 20px;
+}
