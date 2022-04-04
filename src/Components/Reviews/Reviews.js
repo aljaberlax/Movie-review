@@ -1,17 +1,21 @@
 import React from 'react';
 import useReviews from '../../Hooks/useReviews';
-import ReviewDetails from '../ReviewDetails/ReviewDetails';
+import ReviewInfo from '../ReviewInfo/ReviewInfo';
+import'./Reviews.css'
+
 
 
 const Reviews = () => {
     const [reviews, setReviews] = useReviews();
     // 
     return (
-        <div>
+        <div className='grid grid-cols-3'>
             <h1> Total Viewers Reviews: {reviews.length}</h1>
+            <div className='reviewCart'>
             {
-                // reviews.map(reviewItem => <ReviewDetails key={reviewItem.id} reviewItem={reviewItem} ></ReviewDetails>)
+                reviews.map(reviewItem =><ReviewInfo key={reviewItem.id} reviewItem={reviewItem}></ReviewInfo>)
             }
+            </div>
 
         </div>
     );
