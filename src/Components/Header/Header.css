@@ -1,10 +1,13 @@
 .header{
     text-align: center;
+    background: rgb(21, 231, 66);
+    padding: 30px;
+    text-align: center;
 }
-nav{
-    margin-top: 40px;
-}
+
+
 nav a{
+    
     font-size: 25px;
     text-decoration: none;
     color: black;

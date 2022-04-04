@@ -86,7 +86,7 @@ const Dashboard = () => {
                     <Tooltip />
                     <Legend />
                     <Bar dataKey="sell" stackId="a" fill="#8884d8" />
-                    <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
+                    <Bar dataKey="revenue" stackId="a" fill="#eb4034" />
 
                 </BarChart>
             </div>
