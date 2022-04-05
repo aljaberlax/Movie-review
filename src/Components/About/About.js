@@ -1,9 +1,11 @@
 import React from 'react';
 import './About.css'
+import kgf from './kgf-1569703518.jpg'
 
 const About = () => {
     return (
         <div className='kgf-about'>
+            <img src={kgf} alt="" />
             <h1>KGF : Kolar Gold Fields (K.G.F)</h1>
             <p>( Kolar Gold Fields (K.G.F.) is a mining region in K.G.F.
                 taluk (township), Kolar district, Karnataka, India.
