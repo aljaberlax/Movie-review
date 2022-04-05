@@ -9,6 +9,7 @@
 
 .context-api{
     border: 1px solid gray;
+    border-radius: 20px;
     padding: 30px;
     text-align: justify;
     line-height: 30px;
